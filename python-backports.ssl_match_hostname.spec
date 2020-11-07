@@ -67,9 +67,9 @@ popd
 %{__python} setup.py install --skip-build --root %{buildroot}
 
 %files
-%doc  README.rst LICENSE
-%{python_sitelib}/*/*
+#doc  README.rst LICENSE
+#{python_sitelib}/*/*
 
 %files -n python2-%{pkgname}
-%doc  README.rst LICENSE
-%{python2_sitelib}/*/*
+#doc  README.rst LICENSE
+#{python2_sitelib}/*/*
