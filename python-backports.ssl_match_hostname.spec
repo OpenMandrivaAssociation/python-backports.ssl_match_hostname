@@ -48,6 +48,8 @@ that you are trying to reach.
 
 %prep
 %autosetup -n %{pkgname}-%{version}
+rm -rf %{py2dir}
+cp -a . %{py2dir}
 
 %build
 %{__python} setup.py build
