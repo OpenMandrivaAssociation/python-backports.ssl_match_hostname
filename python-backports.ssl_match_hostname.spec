@@ -36,6 +36,16 @@ of earlier versions of Python.
 Simply make this distribution a dependency of your package,
 and then use it like this::
 
+%package -n     python2-%{pkgname}
+Summary:        The ssl.match_hostname() function from Python 3.7 for Python 2
+
+%description -n python2-%{pkgname}
+Python 2 version of the Secure Sockets Layer is only actually *secure*
+if you check the hostname in the certificate returned
+by the server to which you are connecting,
+and verify that it matches to hostname
+that you are trying to reach.
+
 %prep
 %autosetup -n %{pkgname}-%{version}
 
