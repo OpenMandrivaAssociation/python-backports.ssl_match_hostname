@@ -70,8 +70,8 @@ popd
 %{python_sitelib}/
 %{python_sitelib}/backports.ssl_match_hostname-%{version}-py*.*.egg-info
 %{python_sitelib}/backports/__init__.py
-%{python_sitelib}/backports/__pycache__/__init__.cpython-*.opt-1.pyc
-%{python_sitelib}/backports/__pycache__/__init__.cpython-*.pyc
+#{python_sitelib}/backports/__pycache__/__init__.cpython-*.opt-1.pyc
+#{python_sitelib}/backports/__pycache__/__init__.cpython-*.pyc
 %{python_sitelib}/backports/ssl_match_hostname/__init__.py
 %{python_sitelib}/backportsssl_match_hostname/__pycache__/__init__.cpython-*.opt-1.pyc
 %{python_sitelib}/backportsssl_match_hostname/__pycache__/__init__.cpython-*.pyc
