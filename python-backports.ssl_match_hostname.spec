@@ -67,9 +67,17 @@ popd
 %{__python} setup.py install --skip-build --root %{buildroot}
 
 %files
-#doc  README.rst LICENSE
-#{python_sitelib}/*/*
+%{python_sitelib}/
+%{python_sitelib}/backports.ssl_match_hostname-%{version}-py*.*.egg-info
+%{python_sitelib}/backports/__init__.py
+%{python_sitelib}/backports/__pycache__/__init__.cpython-*.opt-1.pyc
+%{python_sitelib}/backports/__pycache__/__init__.cpython-*.pyc
+%{python_sitelib}/backports/ssl_match_hostname/__init__.py
+%{python_sitelib}/backportsssl_match_hostname/__pycache__/__init__.cpython-*.opt-1.pyc
+%{python_sitelib}/backportsssl_match_hostname/__pycache__/__init__.cpython-*.pyc
 
 %files -n python2-%{pkgname}
-#doc  README.rst LICENSE
-#{python2_sitelib}/*/*
+%{python2_sitelib}/
+%{python2_sitelib}/backports.ssl_match_hostname-%{version}-py*.*.egg-info
+%{python2_sitelib}/backports/__init__.py*
+%{python2_sitelib}/backports/ssl_match_hostname/__init__.py*
