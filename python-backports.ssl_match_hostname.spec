@@ -1,7 +1,7 @@
 %define pkgname backports.ssl_match_hostname
 
 Name:           python-%{pkgname}
-Version:        backports.ssl_match_hostname
+Version:        3.7.0.1
 Release:        1
 Summary:        The ssl.match_hostname() function from Python 3.7
 License:        PSF
