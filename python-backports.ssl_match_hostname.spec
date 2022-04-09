@@ -72,7 +72,6 @@ popd
 %{python_sitelib}/backports/ssl_match_hostname/__init__.py
 
 %files -n python2-%{pkgname}
-%{python2_sitelib}/
 %{python2_sitelib}/backports.ssl_match_hostname-%{version}-py*.*.egg-info
 %{python2_sitelib}/backports/__init__.py*
 %{python2_sitelib}/backports/ssl_match_hostname/__init__.py*
