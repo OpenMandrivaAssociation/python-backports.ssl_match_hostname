@@ -67,7 +67,6 @@ popd
 %{__python} setup.py install --skip-build --root %{buildroot}
 
 %files
-%{python_sitelib}/
 %{python_sitelib}/backports.ssl_match_hostname-%{version}-py*.*.egg-info
 %{python_sitelib}/backports/__init__.py
 %{python_sitelib}/backports/ssl_match_hostname/__init__.py
