@@ -2,7 +2,7 @@
 
 Name:           python-%{pkgname}
 Version:        3.7.0.1
-Release:        1
+Release:        2
 Summary:        The ssl.match_hostname() function from Python 3.7
 License:        PSF
 URL:            https://pypi.org/project/backports.ssl_match_hostname/
@@ -70,11 +70,7 @@ popd
 %{python_sitelib}/
 %{python_sitelib}/backports.ssl_match_hostname-%{version}-py*.*.egg-info
 %{python_sitelib}/backports/__init__.py
-%{python_sitelib}/backports/__pycache__/__init__.cpython-*.opt-1.pyc
-%{python_sitelib}/backports/__pycache__/__init__.cpython-*.pyc
 %{python_sitelib}/backports/ssl_match_hostname/__init__.py
-%{python_sitelib}/backports/ssl_match_hostname/__pycache__/__init__.cpython-*.opt-1.pyc
-%{python_sitelib}/backports/ssl_match_hostname/__pycache__/__init__.cpython-*.pyc
 
 %files -n python2-%{pkgname}
 %{python2_sitelib}/
