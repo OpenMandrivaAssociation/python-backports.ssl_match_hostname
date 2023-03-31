@@ -2,7 +2,7 @@
 
 Name:           python-%{pkgname}
 Version:        3.7.0.1
-Release:        2
+Release:        3
 Summary:        The ssl.match_hostname() function from Python 3.7
 License:        PSF
 URL:            https://pypi.org/project/backports.ssl_match_hostname/
